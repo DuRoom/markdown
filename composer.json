@@ -1,0 +1,52 @@
+{
+    "name": "duroom/markdown",
+    "description": "Allow posts to be formatted with Markdown.",
+    "type": "duroom-extension",
+    "keywords": [
+        "formatting"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/DuRoom/core/issues",
+        "source": "https://github.com/DuRoom/markdown",
+        "forum": "https://discuss-duroom.js.org"
+    },
+    "homepage": "https://duroom.js.org",
+    "require": {
+        "duroom/core": "^1.2"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "duroom-extension": {
+            "title": "Markdown",
+            "category": "feature",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#000",
+                "backgroundSize": "100%",
+                "backgroundRepeat": "no-repeat",
+                "backgroundPosition": "center",
+                "color": "#fff"
+            }
+        },
+        "duroom-cli": {
+            "modules": {
+                "admin": false,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    }
+}
